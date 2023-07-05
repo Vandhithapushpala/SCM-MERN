@@ -23,9 +23,11 @@ function Login() {
             })
             .then(res=>{
                 if(res.data.status=="exist"){
+
                     // const role = res.data.role;
             
                     console.log(res.data);
+                    
                     if(res.data.role=="ASC")
                     {
                         history("/components/ASC/aschome",{state:{id:email}})

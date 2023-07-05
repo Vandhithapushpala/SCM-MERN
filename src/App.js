@@ -19,7 +19,6 @@ import Login from './Authenticate/Login';
 import NavAuth  from './navbar/NavAuth';
 import Signup from './Authenticate/Signup';
 
-
 const App = () => {
   return (
     
