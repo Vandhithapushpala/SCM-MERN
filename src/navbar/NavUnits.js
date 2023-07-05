@@ -21,8 +21,11 @@ const NavUnits = () => {
                                 <Link to = "/Components/Units/OpReq" className="nav-link navbar-link">Open Requests</Link>
                             </li>
                             <li className="nav-item active">
-                                <Link to = "/UniHome" className = "nav-link navbar-link">Logout</Link>
+                                <Link to = "/" className = "nav-link navbar-link">Logout</Link>
                             </li>
+                            {/* <li className="nav-item active">
+                                <Link to = "/Components/Units/Unit01" className = "nav-link navbar-link">Supply Request Form</Link>
+                            </li> */}
 
                         </ul>
                     </div>
